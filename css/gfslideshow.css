@@ -1,0 +1,17 @@
+.gss a img {
+  border : none;
+}
+.gss {
+  width: 75px;
+  height: 75px;
+  color: #dddddd;
+  background-color: #000000;
+}
+.flickrSetCase {
+  float: left;
+  width: 91px;
+  height: 95px;
+  background: #ffffff url(../images/set_case.gif) no-repeat;
+  padding: 8px 0px 0px 8px;
+  margin: 10px 10px 10px 10px;
+}

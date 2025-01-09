@@ -1,0 +1,57 @@
+/* Social Media Links */
+div.icons {
+  /* float: left; */
+  width: 387px; /* 645px */
+  height: 30px;
+  padding: 0px; /* 15px */
+  /* border: solid 1px orange; */
+  margin: 13px auto 10px auto; /* 5px ... */
+}
+div.icon {
+  float: left;
+  width: 103px; /* 103px */
+  height: 32px;
+  line-height: 32px;
+  margin: 0px 13px 13px 13px;
+  /* border: solid 1px blue; */
+}
+div.icon a {
+  float: left;
+  width: 73px; /* 103px */
+  height: 32px;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 13px;
+  background-image: url(../images/social-sprites.png);
+  padding: 0px 0px 0px 30px;
+}
+div.icon a.facebook:link, div.icon a.facebook:visited {
+  background-position: 0px 0px;
+}
+div.icon a.facebook:hover, div.icon a.facebook:active {
+  background-position: 0px -32px;
+}
+div.icon a.flickr:link, div.icon a.flickr:visited {
+  background-position: 0px -64px;
+}
+div.icon a.flickr:hover, div.icon a.flickr:active {
+  background-position: 0px -96px;
+}
+div.icon a.linkedin:link, div.icon a.linkedin:visited {
+  background-position: 0px -128px;
+}
+div.icon a.linkedin:hover, div.icon a.linkedin:active {
+  background-position: 0px -160px;
+}
+div.icon a.twitter:link, div.icon a.twitter:visited {
+  background-position: 0px -192px;
+}
+div.icon a.twitter:hover, div.icon a.twitter:active {
+  background-position: 0px -224px;
+}
+div.icon a.email:link, div.icon a.email:visited {
+  background-position: 0px -256px;
+}
+div.icon a.email:hover, div.icon a.email:active {
+  background-position: 0px -288px;
+}
