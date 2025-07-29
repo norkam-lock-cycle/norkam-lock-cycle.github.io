@@ -913,3 +913,24 @@ aside div.weatherBox a {
 
 }
 
+/* 2025 additions */
+.message-banner {
+  background-color: black;
+  color: #ffd101;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.2;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 720px) {
+  .message-banner {
+    height: 150px;
+    font-size: 1.75rem;
+  }
+}
